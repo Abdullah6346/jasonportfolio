@@ -11068,6 +11068,14 @@ h5,
   z-index: -1;
   height: 70vh !important;
 }
+@media (max-width:500px){
+  .owl-carousel.home-slider .slider-item .slider-text .one-third{
+
+    height: 65vh !important;
+  }
+
+
+}
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
   position: absolute;
   top: 0;

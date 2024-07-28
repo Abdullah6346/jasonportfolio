@@ -213,6 +213,15 @@ pre {
 figure {
   margin: 0 0 1rem;
 }
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+@media screen {
+  .about-img img {
+    max-width: 50vw;
+  }
+}
 
 img {
   vertical-align: middle;
@@ -620,6 +629,11 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+@media (max-width: 400px) {
+  .row {
+    margin-left: 0px;
+  }
 }
 
 .no-gutters {
@@ -11068,13 +11082,10 @@ h5,
   z-index: -1;
   height: 70vh !important;
 }
-@media (max-width:500px){
-  .owl-carousel.home-slider .slider-item .slider-text .one-third{
-
+@media (max-width: 500px) {
+  .owl-carousel.home-slider .slider-item .slider-text .one-third {
     height: 65vh !important;
   }
-
-
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
   position: absolute;
